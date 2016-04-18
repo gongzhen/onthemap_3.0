@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "onthemap_3.0/Dev/Logger.swift"
+            timestampString = "482698144.676858"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "debug(_:file:line:function:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "onthemap_3.0/Dev/Logger.swift"
+            timestampString = "482698193.77225"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "error(_:file:line:function:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static onthemap_3_0.Logger.(error (onthemap_3_0.Logger.Type) -&gt; (Swift.String, file : Swift.String, line : Swift.Int, function : Swift.String) -&gt; ()).(default argument 1)"
+                  moduleName = "onthemap_3.0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gongzhen/Projects/swift/udacity/iosnanodegree/OntheMap/lesson5/onthemap_3.0/onthemap_3.0/Dev/Logger.swift"
+                  timestampString = "482700502.468937"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static onthemap_3_0.Logger.(error (onthemap_3_0.Logger.Type) -&gt; (Swift.String, file : Swift.String, line : Swift.Int, function : Swift.String) -&gt; ()).(default argument 3)"
+                  moduleName = "onthemap_3.0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gongzhen/Projects/swift/udacity/iosnanodegree/OntheMap/lesson5/onthemap_3.0/onthemap_3.0/Dev/Logger.swift"
+                  timestampString = "482700502.469557"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static onthemap_3_0.Logger.error (onthemap_3_0.Logger.Type)(Swift.String, file : Swift.String, line : Swift.Int, function : Swift.String) -&gt; ()"
+                  moduleName = "onthemap_3.0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gongzhen/Projects/swift/udacity/iosnanodegree/OntheMap/lesson5/onthemap_3.0/onthemap_3.0/Dev/Logger.swift"
+                  timestampString = "482700502.469834"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "onthemap_3.0/Dev/Logger.swift"
+            timestampString = "482698201.924132"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "info(_:file:line:function:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static onthemap_3_0.Logger.(info (onthemap_3_0.Logger.Type) -&gt; (Swift.String, file : Swift.String, line : Swift.Int, function : Swift.String) -&gt; ()).(default argument 1)"
+                  moduleName = "onthemap_3.0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gongzhen/Projects/swift/udacity/iosnanodegree/OntheMap/lesson5/onthemap_3.0/onthemap_3.0/Dev/Logger.swift"
+                  timestampString = "482700502.476403"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static onthemap_3_0.Logger.(info (onthemap_3_0.Logger.Type) -&gt; (Swift.String, file : Swift.String, line : Swift.Int, function : Swift.String) -&gt; ()).(default argument 2)"
+                  moduleName = "onthemap_3.0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gongzhen/Projects/swift/udacity/iosnanodegree/OntheMap/lesson5/onthemap_3.0/onthemap_3.0/Dev/Logger.swift"
+                  timestampString = "482700502.476872"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "6">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static onthemap_3_0.Logger.info (onthemap_3_0.Logger.Type)(Swift.String, file : Swift.String, line : Swift.Int, function : Swift.String) -&gt; ()"
+                  moduleName = "onthemap_3.0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gongzhen/Projects/swift/udacity/iosnanodegree/OntheMap/lesson5/onthemap_3.0/onthemap_3.0/Dev/Logger.swift"
+                  timestampString = "482700502.478394"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "onthemap_3.0/Dev/Logger.swift"
+            timestampString = "482698203.404181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "outputMessage(_:file:line:function:level:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "onthemap_3.0/Model/UdacityWebClient.swift"
+            timestampString = "482699890.917802"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "parseJsonFromData(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "onthemap_3.0/Model/WebClient.swift"
+            timestampString = "482699943.853043"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "executeRequest(_:completionHandler:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "onthemap_3.0/Model/UdacityWebClient.swift"
+            timestampString = "482700513.330157"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "authenticateByUsername(_:withPassword:completionHandler:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "onthemap_3_0.UdacityWebClient.authenticateByUsername (onthemap_3_0.UdacityWebClient)(Swift.Optional&lt;Swift.String&gt;, withPassword : Swift.Optional&lt;Swift.String&gt;, completionHandler : (userIdentity : Swift.Optional&lt;Swift.String&gt;, error : Swift.Optional&lt;__ObjC.NSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "onthemap_3.0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gongzhen/Projects/swift/udacity/iosnanodegree/OntheMap/lesson5/onthemap_3.0/onthemap_3.0/Model/UdacityWebClient.swift"
+                  timestampString = "482700513.333802"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "866">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "onthemap_3_0.UdacityWebClient.(authenticateByUsername (onthemap_3_0.UdacityWebClient) -&gt; (Swift.Optional&lt;Swift.String&gt;, withPassword : Swift.Optional&lt;Swift.String&gt;, completionHandler : (userIdentity : Swift.Optional&lt;Swift.String&gt;, error : Swift.Optional&lt;__ObjC.NSError&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "onthemap_3.0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gongzhen/Projects/swift/udacity/iosnanodegree/OntheMap/lesson5/onthemap_3.0/onthemap_3.0/Model/UdacityWebClient.swift"
+                  timestampString = "482700513.334046"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

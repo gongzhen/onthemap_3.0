@@ -14,6 +14,11 @@
 		064248DF1CC2DF9A00CB104D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064248DD1CC2DF9A00CB104D /* LaunchScreen.storyboard */; };
 		064248EA1CC2DF9A00CB104D /* onthemap_3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064248E91CC2DF9A00CB104D /* onthemap_3_0Tests.swift */; };
 		064248F51CC2DF9A00CB104D /* onthemap_3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064248F41CC2DF9A00CB104D /* onthemap_3_0UITests.swift */; };
+		064249131CC4767000CB104D /* UdacityWebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064249101CC4767000CB104D /* UdacityWebClient.swift */; };
+		064249141CC4767000CB104D /* UserIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064249111CC4767000CB104D /* UserIdentity.swift */; };
+		064249151CC4767000CB104D /* WebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064249121CC4767000CB104D /* WebClient.swift */; };
+		064249171CC47E8F00CB104D /* OnTheMapParseWebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064249161CC47E8F00CB104D /* OnTheMapParseWebClient.swift */; };
+		0642491C1CC4983300CB104D /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0642491B1CC4983300CB104D /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		064248F01CC2DF9A00CB104D /* onthemap_3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onthemap_3.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		064248F41CC2DF9A00CB104D /* onthemap_3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onthemap_3_0UITests.swift; sourceTree = "<group>"; };
 		064248F61CC2DF9A00CB104D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		064249101CC4767000CB104D /* UdacityWebClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UdacityWebClient.swift; sourceTree = "<group>"; };
+		064249111CC4767000CB104D /* UserIdentity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserIdentity.swift; sourceTree = "<group>"; };
+		064249121CC4767000CB104D /* WebClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebClient.swift; sourceTree = "<group>"; };
+		064249161CC47E8F00CB104D /* OnTheMapParseWebClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheMapParseWebClient.swift; sourceTree = "<group>"; };
+		0642491B1CC4983300CB104D /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +107,10 @@
 		064248D31CC2DF9A00CB104D /* onthemap_3.0 */ = {
 			isa = PBXGroup;
 			children = (
-				064248D41CC2DF9A00CB104D /* AppDelegate.swift */,
 				064248D61CC2DF9A00CB104D /* ViewController.swift */,
+				064248D41CC2DF9A00CB104D /* AppDelegate.swift */,
+				0642490F1CC4767000CB104D /* Model */,
+				0642491A1CC4983300CB104D /* Dev */,
 				064248D81CC2DF9A00CB104D /* Main.storyboard */,
 				064248DB1CC2DF9A00CB104D /* Assets.xcassets */,
 				064248DD1CC2DF9A00CB104D /* LaunchScreen.storyboard */,
@@ -123,6 +135,25 @@
 				064248F61CC2DF9A00CB104D /* Info.plist */,
 			);
 			path = onthemap_3.0UITests;
+			sourceTree = "<group>";
+		};
+		0642490F1CC4767000CB104D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				064249101CC4767000CB104D /* UdacityWebClient.swift */,
+				064249111CC4767000CB104D /* UserIdentity.swift */,
+				064249121CC4767000CB104D /* WebClient.swift */,
+				064249161CC47E8F00CB104D /* OnTheMapParseWebClient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0642491A1CC4983300CB104D /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				0642491B1CC4983300CB104D /* Logger.swift */,
+			);
+			path = Dev;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +291,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				064248D71CC2DF9A00CB104D /* ViewController.swift in Sources */,
+				064249171CC47E8F00CB104D /* OnTheMapParseWebClient.swift in Sources */,
 				064248D51CC2DF9A00CB104D /* AppDelegate.swift in Sources */,
+				064249141CC4767000CB104D /* UserIdentity.swift in Sources */,
+				064249151CC4767000CB104D /* WebClient.swift in Sources */,
+				064249131CC4767000CB104D /* UdacityWebClient.swift in Sources */,
+				0642491C1CC4983300CB104D /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +521,7 @@
 				064248FB1CC2DF9A00CB104D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		064248FC1CC2DF9A00CB104D /* Build configuration list for PBXNativeTarget "onthemap_3.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +530,7 @@
 				064248FE1CC2DF9A00CB104D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		064248FF1CC2DF9A00CB104D /* Build configuration list for PBXNativeTarget "onthemap_3.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +539,7 @@
 				064249011CC2DF9A00CB104D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

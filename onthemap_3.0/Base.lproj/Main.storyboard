@@ -30,7 +30,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="performLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZqO-Zg-6PA"/>
+                                    <action selector="performLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NvX-Tm-Ls1"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hze-EG-gU0">
@@ -49,15 +49,26 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNI-IP-YEL">
+                                <rect key="frame" x="224" y="323" width="153" height="30"/>
+                                <state key="normal" title="Get Student Locations">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="requestStudentLocations:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iQm-1f-hyL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="tlM-wh-4wN" firstAttribute="top" secondItem="Hze-EG-gU0" secondAttribute="bottom" constant="8" symbolic="YES" id="4Ei-Jx-y1C"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tlM-wh-4wN" secondAttribute="trailing" id="7nX-qn-3NG"/>
+                            <constraint firstAttribute="centerX" secondItem="TNI-IP-YEL" secondAttribute="centerX" id="FVL-UO-bGD"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Hze-EG-gU0" secondAttribute="trailing" id="Fva-0Z-H3Y"/>
                             <constraint firstItem="NFK-53-y44" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="JbJ-h8-8GC"/>
                             <constraint firstAttribute="centerX" secondItem="i5A-UE-vtm" secondAttribute="centerX" id="Mh9-Zo-Kju"/>
                             <constraint firstAttribute="centerY" secondItem="i5A-UE-vtm" secondAttribute="centerY" id="WI0-Cz-PzB"/>
+                            <constraint firstItem="TNI-IP-YEL" firstAttribute="top" secondItem="i5A-UE-vtm" secondAttribute="bottom" constant="8" symbolic="YES" id="igp-Jc-Rod"/>
                             <constraint firstItem="zfk-WA-kjx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="mjE-hH-hwT"/>
                             <constraint firstItem="tlM-wh-4wN" firstAttribute="leading" secondItem="zfk-WA-kjx" secondAttribute="trailing" constant="8" symbolic="YES" id="oqC-7r-eGH"/>
                             <constraint firstItem="Hze-EG-gU0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="pDR-LV-Nmc"/>
@@ -73,8 +84,8 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="passwordTextField" destination="tlM-wh-4wN" id="UTA-ia-EhG"/>
-                        <outlet property="usernameTextField" destination="Hze-EG-gU0" id="vBX-Yq-rSN"/>
+                        <outlet property="passwordTextField" destination="tlM-wh-4wN" id="Gsl-lb-pM6"/>
+                        <outlet property="usernameTextField" destination="Hze-EG-gU0" id="8Kd-qH-GXY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
