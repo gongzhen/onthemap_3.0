@@ -13,14 +13,17 @@ class ViewController: UIViewController {
     @IBOutlet var usernameTextField: UITextField!
     @IBOutlet var passwordTextField: UITextField!
     
-    var udacityClient: UdacityWebClient!
-    var onTheMapClient: OnTheMapParseWebClient!
+    var udacityClient: UdacityService!
+    var onTheMapClient: OnTheMapParseService!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        udacityClient = UdacityWebClient()
-        onTheMapClient = OnTheMapParseWebClient()
+        // UdacityService: initialize
+        // WebClient and prepareData that trim the jasonData.
+        udacityClient = UdacityService()
+        // OnTheMapParseService: initialize
+        // parseClient with WebClient, applicationId, restApiKey
+        onTheMapClient = OnTheMapParseService()
     }
 
     @IBAction func performLogin(sender: AnyObject) {
@@ -51,12 +54,16 @@ class ViewController: UIViewController {
     @IBAction func requestStudentLocations(sender: UIButton) {
         print("student locations tapped")
         // OnTheMapParseWebClient: fetchStudentLocations
-        onTheMapClient.fetchStudentLocations() {
-            data, error in
-            print("nothing, probably not called yet")
+        // parameters: limit = 50, skip = 50
+        // return the studentLocations: [StudentLocation]
+        self.onTheMapClient.fetchStudentLocations(50, skip: 50) {
+            studentLocations, error -> Void in
+            if let studentLocations = studentLocations {
+                print("found \(studentLocations.count) locations")
+                print("First item name is \(studentLocations[0].firstname)")
+            }
         }
         print("student locations request sent")
     }
-
 }
 
