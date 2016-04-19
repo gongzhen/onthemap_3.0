@@ -14,11 +14,13 @@
 		064248DF1CC2DF9A00CB104D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064248DD1CC2DF9A00CB104D /* LaunchScreen.storyboard */; };
 		064248EA1CC2DF9A00CB104D /* onthemap_3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064248E91CC2DF9A00CB104D /* onthemap_3_0Tests.swift */; };
 		064248F51CC2DF9A00CB104D /* onthemap_3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064248F41CC2DF9A00CB104D /* onthemap_3_0UITests.swift */; };
-		064249131CC4767000CB104D /* UdacityWebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064249101CC4767000CB104D /* UdacityWebClient.swift */; };
-		064249141CC4767000CB104D /* UserIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064249111CC4767000CB104D /* UserIdentity.swift */; };
-		064249151CC4767000CB104D /* WebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064249121CC4767000CB104D /* WebClient.swift */; };
-		064249171CC47E8F00CB104D /* OnTheMapParseWebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064249161CC47E8F00CB104D /* OnTheMapParseWebClient.swift */; };
-		0642491C1CC4983300CB104D /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0642491B1CC4983300CB104D /* Logger.swift */; };
+		064249221CC59CD500CB104D /* OnTheMapParseWebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0642491E1CC59CD500CB104D /* OnTheMapParseWebClient.swift */; };
+		064249231CC59CD500CB104D /* UdacityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0642491F1CC59CD500CB104D /* UdacityService.swift */; };
+		064249281CC59D1500CB104D /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064249271CC59D1500CB104D /* Logger.swift */; };
+		0642492A1CC59D6400CB104D /* WebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064249291CC59D6400CB104D /* WebClient.swift */; };
+		0642492D1CC59DB300CB104D /* UserIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0642492C1CC59DB300CB104D /* UserIdentity.swift */; };
+		0642494B1CC5CFB000CB104D /* ParseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0642494A1CC5CFB000CB104D /* ParseClient.swift */; };
+		0642494D1CC5ECC200CB104D /* StudentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0642494C1CC5ECC200CB104D /* StudentLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +54,13 @@
 		064248F01CC2DF9A00CB104D /* onthemap_3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onthemap_3.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		064248F41CC2DF9A00CB104D /* onthemap_3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onthemap_3_0UITests.swift; sourceTree = "<group>"; };
 		064248F61CC2DF9A00CB104D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		064249101CC4767000CB104D /* UdacityWebClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UdacityWebClient.swift; sourceTree = "<group>"; };
-		064249111CC4767000CB104D /* UserIdentity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserIdentity.swift; sourceTree = "<group>"; };
-		064249121CC4767000CB104D /* WebClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebClient.swift; sourceTree = "<group>"; };
-		064249161CC47E8F00CB104D /* OnTheMapParseWebClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheMapParseWebClient.swift; sourceTree = "<group>"; };
-		0642491B1CC4983300CB104D /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		0642491E1CC59CD500CB104D /* OnTheMapParseWebClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheMapParseWebClient.swift; sourceTree = "<group>"; };
+		0642491F1CC59CD500CB104D /* UdacityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UdacityService.swift; sourceTree = "<group>"; };
+		064249271CC59D1500CB104D /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		064249291CC59D6400CB104D /* WebClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebClient.swift; sourceTree = "<group>"; };
+		0642492C1CC59DB300CB104D /* UserIdentity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserIdentity.swift; sourceTree = "<group>"; };
+		0642494A1CC5CFB000CB104D /* ParseClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseClient.swift; sourceTree = "<group>"; };
+		0642494C1CC5ECC200CB104D /* StudentLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +113,9 @@
 			children = (
 				064248D61CC2DF9A00CB104D /* ViewController.swift */,
 				064248D41CC2DF9A00CB104D /* AppDelegate.swift */,
-				0642490F1CC4767000CB104D /* Model */,
-				0642491A1CC4983300CB104D /* Dev */,
+				0642492B1CC59DB300CB104D /* Model */,
+				064249261CC59D1500CB104D /* Public */,
+				0642491D1CC59CD500CB104D /* Clients */,
 				064248D81CC2DF9A00CB104D /* Main.storyboard */,
 				064248DB1CC2DF9A00CB104D /* Assets.xcassets */,
 				064248DD1CC2DF9A00CB104D /* LaunchScreen.storyboard */,
@@ -137,23 +142,33 @@
 			path = onthemap_3.0UITests;
 			sourceTree = "<group>";
 		};
-		0642490F1CC4767000CB104D /* Model */ = {
+		0642491D1CC59CD500CB104D /* Clients */ = {
 			isa = PBXGroup;
 			children = (
-				064249101CC4767000CB104D /* UdacityWebClient.swift */,
-				064249111CC4767000CB104D /* UserIdentity.swift */,
-				064249121CC4767000CB104D /* WebClient.swift */,
-				064249161CC47E8F00CB104D /* OnTheMapParseWebClient.swift */,
+				0642491E1CC59CD500CB104D /* OnTheMapParseWebClient.swift */,
+				0642491F1CC59CD500CB104D /* UdacityService.swift */,
 			);
-			path = Model;
+			path = Clients;
 			sourceTree = "<group>";
 		};
-		0642491A1CC4983300CB104D /* Dev */ = {
+		064249261CC59D1500CB104D /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				0642491B1CC4983300CB104D /* Logger.swift */,
+				064249291CC59D6400CB104D /* WebClient.swift */,
+				064249271CC59D1500CB104D /* Logger.swift */,
+				0642494A1CC5CFB000CB104D /* ParseClient.swift */,
 			);
-			path = Dev;
+			name = Public;
+			path = onthemap_3.0/Public;
+			sourceTree = SOURCE_ROOT;
+		};
+		0642492B1CC59DB300CB104D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0642492C1CC59DB300CB104D /* UserIdentity.swift */,
+				0642494C1CC5ECC200CB104D /* StudentLocation.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,13 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0642494D1CC5ECC200CB104D /* StudentLocation.swift in Sources */,
 				064248D71CC2DF9A00CB104D /* ViewController.swift in Sources */,
-				064249171CC47E8F00CB104D /* OnTheMapParseWebClient.swift in Sources */,
 				064248D51CC2DF9A00CB104D /* AppDelegate.swift in Sources */,
-				064249141CC4767000CB104D /* UserIdentity.swift in Sources */,
-				064249151CC4767000CB104D /* WebClient.swift in Sources */,
-				064249131CC4767000CB104D /* UdacityWebClient.swift in Sources */,
-				0642491C1CC4983300CB104D /* Logger.swift in Sources */,
+				064249221CC59CD500CB104D /* OnTheMapParseWebClient.swift in Sources */,
+				064249231CC59CD500CB104D /* UdacityService.swift in Sources */,
+				064249281CC59D1500CB104D /* Logger.swift in Sources */,
+				0642492D1CC59DB300CB104D /* UserIdentity.swift in Sources */,
+				0642494B1CC5CFB000CB104D /* ParseClient.swift in Sources */,
+				0642492A1CC59D6400CB104D /* WebClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
